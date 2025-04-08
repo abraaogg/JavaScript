@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>País</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: palegreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>Nacionalidade</h1>
+    País: <input type="text" id="país">
+
+    
+    <input type="submit" value="Verificar" onclick="calcular()">
+
+    <div id="res"></div>
+
+    <script>
+        function calcular(){
+
+       
+          var país = window.document.getElementById('país')
+
+          var res = window.document.querySelector('div#res')
+
+          var origem = String(país.value)
+            res.innerHTML = `<p>Seu país de origem é <strong>${origem}</strong></p>`
+
+            if (origem != "Brasil"){
+                res.innerHTML += `<p>Você é <strong>Estrangeiro</strong> &#x1F6A8</p>`
+                res.innerHTML += `<p>Welcome!</p>`
+            } else{
+                  res.innerHTML += `<p><strong>Aqui é Brasil!!!</strong></p>`
+            }
+         }
+    </script>
+</body>
+</html>
