@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body{
+    background: lightskyblue;
+    font: normal 15pt arial;
+}
+
+header{
+    color: aliceblue;
+    text-align: center;
+}
+
+section{
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.541);
+}
+
+div{
+    text-align: center;
+    padding: 5px;
+}
+
+footer{
+    color: aliceblue;
+    text-align: center;
+    font-style: italic;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    align-self: center;
+}
