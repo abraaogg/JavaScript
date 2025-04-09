@@ -2,7 +2,8 @@
 
 body{
     background: lightskyblue;
-    font: normal 15pt arial;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.3em;
 }
 
 header{
@@ -35,4 +36,11 @@ img{
     width: 300px;
     border-radius: 50%;
     align-self: center;
+}
+
+div#msg{
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.418);
+    border-radius: 5px;
+    
 }
