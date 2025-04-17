@@ -3,6 +3,8 @@
 body{
     background: lightskyblue;
     font: normal 15pt arial;
+    background: url(calculadora.jpg);
+    background-size: cover;
 }
 
 header{
@@ -17,6 +19,26 @@ section{
     width: 500px;
     margin: auto;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.541);
+}
+
+
+input{
+    padding: 5px;
+    margin: 10px;
+}
+
+div#tabuada{
+    background-color: #DED9BB;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.486);
+}
+
+select{
+    border: 10px double #f98a38;
+    border-radius: 0px;
+    width: 200px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 footer{
